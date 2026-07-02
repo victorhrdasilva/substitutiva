@@ -1,0 +1,15 @@
+### Cadastrar
+POST http://localhost:5237/api/pressao/cadastrar
+Content-Type: application/json
+
+{
+    "nomePaciente" : "Victor",
+    "pressaoMaxima" : "120",
+    "pressaoMinma" : "50"
+}
+
+### Listar
+GET http://localhost:5237/api/pressao/listar
+
+### Listar por calssificacão
+GET http://localhost:5237/api/pressao/listarClass
